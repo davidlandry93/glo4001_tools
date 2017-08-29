@@ -181,6 +181,8 @@ include_directories(
 #   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 # )
 
+
+install(FILES launch/robmob.launch DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 install(PROGRAMS scripts/delayed_roslaunch.sh DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 #############
