@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+
+import kinect_monitor
+
+if __name__ == '__main__':
+   n = kinect_monitor.KinectMonitorNode()
+   n.spin()
